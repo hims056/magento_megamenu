@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <MS_Megamenu>
+            <active>true</active>
+            <codePool>community</codePool>
+        </MS_Megamenu>
+    </modules>
+</config>

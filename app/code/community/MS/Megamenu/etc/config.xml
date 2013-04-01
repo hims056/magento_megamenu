@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <MS_Megamenu>
+            <version>1.0.0</version>
+        </MS_Megamenu>
+    </modules>
+    <global>        
+        <helpers>
+            <ms_megamenu>
+                <class>MS_Megamenu_Helper</class>
+            </ms_megamenu>
+        </helpers>        
+        <blocks>
+            <ms_megamenu>
+                <class>MS_Megamenu_Block</class>
+            </ms_megamenu>
+            <page>
+                <rewrite>
+                    <html_topmenu>MS_Megamenu_Block_Menu</html_topmenu>
+                </rewrite>
+            </page>
+        </blocks>
+        <resources>
+            <add_custom_category_attribute>
+                <setup>
+                    <module>MS_Megamenu</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+            </add_custom_category_attribute>
+        </resources>       
+    </global>
+    <frontend>              
+        <layout>
+            <updates>
+                <ms_megamenu>
+                    <file>megamenu.xml</file>
+                </ms_megamenu>
+            </updates>
+        </layout>
+    </frontend>    
+</config>

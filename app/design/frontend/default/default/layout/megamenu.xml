@@ -1,0 +1,9 @@
+<layout> 
+	<default>
+        <reference name="head">
+        	<action method="addCss"><stylesheet>css/megamenu.css</stylesheet></action>
+        	<action method="addJs"><script>jquery/jquery.min.js</script></action>
+			<action method="addItem"><type>skin_js</type><name>js/megamenu/script.js</name></action>  		
+        </reference>
+	</default>
+</layout>

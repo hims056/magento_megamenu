@@ -1,0 +1,140 @@
+div.nav-container {
+	height: 30px;
+}
+#navigation { 
+	width:940px;
+	margin:0 auto;	
+	background: #0A263D;
+}
+#navigation>li {
+	float: left;	
+	position: relative;
+
+}
+#navigation>li>a {
+	display: block;
+	color:#a7c6dd; 
+	font-weight:bold;
+	padding: 6px 20px;	
+}
+
+li.mmHandler {
+	width: 80px;
+}
+/************ General mega menu settings ************/
+
+#megaMenu {
+	font-size: 13px;	
+	width: 936px;	
+	background:#E1E6F7;
+	display:none;
+	float:left;
+	position:absolute;
+	border: 2px solid #D7DDF5;
+	border-top:none;
+	z-index: 1000;
+}
+
+#navigation a { 
+	text-decoration: none;
+}
+
+#megaMenu ul li { 
+	list-style: none;
+}
+
+
+/************ Main categries settings ************/
+
+
+#mainCategories {
+	width: 20%;
+	float: left;
+	background: #E1E6F7;
+
+}
+#mainCategories ul li {
+	border-bottom: 1px #D7DDF5 solid;
+}
+#mainCategories ul li a {
+	padding: 5px 20px;
+	display: block;
+	text-align: left;
+	color: #262525;
+	font-weight:bold;
+	font-size: 90%;
+	text-transform:uppercase;
+
+}
+#mainCategories ul li a:hover {
+	background: #E9EBF5;
+	color: ;
+}
+
+
+/************ Submenus settings ************/
+
+
+#subMenus {
+	width: 80%;
+	float: left;
+	background: #E9EBF5;
+}
+
+ul.submenu {
+	float: left;
+	width: 70%;
+	display:none;
+}
+ul.submenu:first-child { display: block; } 
+ul.submenu>li {
+	width: 33%;
+	float: left;
+	margin: 10px 0;
+}
+ul.submenu li a {
+	padding: 0px 20px;
+	display: block;
+	font-size: 90%;
+	text-align: left;
+	color: #262525;
+}
+
+ul.submenu>li>a { font-weight: bold; }
+
+
+/************ Featured products settings ************/
+
+
+#featuredProducts {
+	width: 30%;
+	float: left;
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+
+#featuredProducts .product {
+	display:none;
+}
+
+#featuredProducts img {
+	border: 2px solid #D7DDF5;
+	padding:2px;
+}
+div.productInfo p {
+	font-weight: bold;
+	margin: 10px 0;
+}
+div.productInfo a {
+	margin: 10px auto;
+	width: 70px;
+	background: none repeat scroll 0 0 #F18200;
+    border: 1px solid #DE5400;
+    color: #FFFFFF;
+    display: block;
+    font: bold 12px/19px Arial,Helvetica,sans-serif;
+    height: 19px;
+    padding: 0 8px;
+    text-align: center;
+    white-space: nowrap;
+}
